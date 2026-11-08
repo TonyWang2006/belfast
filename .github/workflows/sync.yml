@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4 # 确保 CLI 能识别本地仓库上下文
+        uses: actions/checkout@v7 # 确保 CLI 能识别本地仓库上下文
 
       - name: Sync upstream using GitHub CLI
         env:
